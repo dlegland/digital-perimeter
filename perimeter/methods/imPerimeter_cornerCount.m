@@ -22,5 +22,5 @@ function perim = imPerimeter_cornerCount(img)
 % Created: 2026-07-22,    using Matlab 25.1.0.2973910 (R2025a) Update 1
 % Copyright 2026 INRAE.
 
-props = regionprops(img);
+props = regionprops(img, {'Perimeter'});
 perim = props.Perimeter;
