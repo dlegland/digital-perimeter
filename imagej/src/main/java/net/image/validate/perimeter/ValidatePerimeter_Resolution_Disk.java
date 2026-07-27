@@ -187,12 +187,12 @@ public class ValidatePerimeter_Resolution_Disk
 //        System.out.println("");
 
         // Save result table
-        File outputFile = new File("perimeterDisk_byRadiusTo100_summary.txt");
+        File outputFile = new File("tables/perimeter_disk_R01to70_summary.txt");
         TableWriter writer = new DelimitedTableWriter(outputFile);
         writer.writeTable(resGlobal);
         
         // Save table of errors
-        File outputFile2 = new File("perimeterDisk_byRadiusTo100_error_summary.txt");
+        File outputFile2 = new File("tables/perimeter_disk_R01to70_error_summary.txt");
         TableWriter writer2 = new DelimitedTableWriter(outputFile2);
         writer2.writeTable(errorGlobal);
     }
