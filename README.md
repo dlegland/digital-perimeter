@@ -10,4 +10,11 @@ Investigated methods are:
 * corner-count method (more precise)
 * ImageJ "Analyze Particles" results (popular software)
 
+## File organization
 
+The **imagej** directory contains java code for computing perimeter using ImageJ, either based on the 
+"Analyze particles" feature, or using the MorphoLibJ library. 
+Results tables are located in the "tables" sub-directory.
+
+The **matlab** directory contains scripts for generating synthetic binary imges of geometric shapes, 
+measuring perimeter, and plotting the results.
