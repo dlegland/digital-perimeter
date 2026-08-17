@@ -1,4 +1,4 @@
-%CHECKPERIMETER_DISKR50  One-line description here, please.
+%CHECKPERIMETER_ELLIPSE_A40_B20  One-line description here, please.
 %
 %   output = checkPerimeter_DiskR50(input)
 %
@@ -15,7 +15,7 @@
 % Created: 2023-10-06,    using Matlab 9.14.0.2337262 (R2023a) Update 5
 % Copyright 2023 INRAE.
 
-%% Initialisations
+%% Initializations
 
 Rab = [40 20];
 pth = ellipsePerimeter(Rab);
@@ -52,6 +52,7 @@ for iSimul = 1:nSimuls
     props = regionprops(img, 'Perimeter');
     resMatlab(iSimul) = props.Perimeter;
 end
+
 
 %% Post-processing
 

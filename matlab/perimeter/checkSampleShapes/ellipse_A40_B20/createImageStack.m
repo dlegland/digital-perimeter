@@ -24,7 +24,7 @@ dims = [100 100];
 % retrieve positions and orientations
 tab = Table.read('params_EllipseA40B20.txt');
 
-% allocte memory for result image
+% allocate memory for result image
 nSimuls = size(tab, 1);
 img = zeros([dims nSimuls], 'uint8');
 
