@@ -86,7 +86,7 @@ for iShape = 1:nShapes
         params(iSimul,:) = [center rotAngle];
     
         % generate discrete image of the shape
-        shape = translate(rotate(shape0, rotAngle, [50 50]), shift);
+        shape = translate(rotate(shape0, deg2rad(rotAngle), [50 50]), shift);
         poly = asPolyline(shape, 1000);
         img = reshape(isPointInPolygon([x(:) y(:)], poly), [100 100]);
     
