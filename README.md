@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22010635.svg)](https://doi.org/10.5281/zenodo.22010635)
+
 # Digital perimeter
 
 A collection of scripts for investigating the precision and accuracy of methods for measuring the perimeter of regions within binary digital images.
